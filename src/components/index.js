@@ -40,7 +40,7 @@ export default function Home(){
                             random :true,
                             anim:{
                                 enable:true,
-                                speed:1,
+                                speed:0.5,
                                 size_min : 0.1,
                                 sync:true
                             }

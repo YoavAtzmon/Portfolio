@@ -27,26 +27,29 @@ export default function Portfolio() {
                                 component="img"
                                 alt="Project 1"
                                 height="140"
-                                image={project1}
+                                image={`https://cdn.pixabay.com/photo/2017/07/20/03/53/homework-2521144_960_720.jpg`}
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Project 1
+                                    Make A Test
                                 </Typography>
                                 <Typography  variant="body2" color="textSecondary" component="p">
-                                    lofkdl;k dsflk dslf l;sdkf l;dsk  sdlfk;sd l;fk sd
-                                     sdfksld; fskl; sld;kf sd
-                                     f skld;f ksd;lf ks
-                                     d fslkd; fskdl;fkdsl;fkdsl;fksdl;fk kl;dskf ;lds fk;sl
+                                  Web aplication project,where you can make your own test,and send him to anyone you would like to.
+                                  The web was built using JS CSS REACT.JS MONGO-DB HEROKU
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                    Share
+                                    <a style={{ textDecoration:"none"}}href="https://atzmon.herokuapp.com">
+                                    WEB
+                                    </a>
+
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Live Demo
+                                    <a style={{ textDecoration:"none"}}href="https://bitbucket.org/yoatzmon/yoav/src/master/">
+                                    GIT
+                                    </a>
                                 </Button>
                             </CardActions>
                     </Card>
@@ -56,28 +59,31 @@ export default function Portfolio() {
                         <CardActionArea>
                             <CardMedia
                                 component="img"
-                                alt="Project 2"
+                                alt="Project 1"
                                 height="140"
-                                image={project2}
+                                image={`https://cdn.pixabay.com/photo/2015/01/20/12/51/mobile-605422_960_720.jpg`}
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Project 2
+                                    Looper Machine
                                 </Typography>
                                 <Typography  variant="body2" color="textSecondary" component="p">
-                                    lofkdl;k dsflk dslf l;sdkf l;dsk  sdlfk;sd l;fk sd
-                                     sdfksld; fskl; sld;kf sd
-                                     f skld;f ksd;lf ks
-                                     d fslkd; fskdl;fkdsl;fkdsl;fksdl;fk kl;dskf ;lds fk;sl
+                                  Web aplication project, where you can make you own loop and record him.
+                                  The web wah built using JS CSS REACT.JS MATERIAL-UI HEROKU
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                    Share
+                                    <a style={{ textDecoration:"none"}}href="https://loopmachine.herokuapp.com">
+                                    WEB
+                                    </a>
+
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Live Demo
+                                    <a style={{ textDecoration:"none"}}href="https://github.com/YoavAtzmon/Loop-Machine">
+                                    GIT
+                                    </a>
                                 </Button>
                             </CardActions>
                     </Card>
@@ -87,59 +93,30 @@ export default function Portfolio() {
                         <CardActionArea>
                             <CardMedia
                                 component="img"
-                                alt="Project 3"
+                                alt="Project 1"
                                 height="140"
-                                image={project3}
+                                image={`https://cdn.pixabay.com/photo/2015/12/08/00/31/office-1081807_960_720.jpg`}
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Project 3
+                                    Protfolio
                                 </Typography>
                                 <Typography  variant="body2" color="textSecondary" component="p">
-                                    lofkdl;k dsflk dslf l;sdkf l;dsk  sdlfk;sd l;fk sd
-                                     sdfksld; fskl; sld;kf sd
-                                     f skld;f ksd;lf ks
-                                     d fslkd; fskdl;fkdsl;fkdsl;fksdl;fk kl;dskf ;lds fk;sl
+                                  Web aplication project, where you can watch my portfolio .
+                                  The web wah built using JS CSS REACT.JS MATERIAL-UI HEROKU
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                    Share
+                                    <a style={{ textDecoration:"none"}}href="https://portfolio.herokuapp.com">
+                                    WEB
+                                    </a>
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Live Demo
-                                </Button>
-                            </CardActions>
-                    </Card>
-                </Grid>
-                <Grid item xs={12} sm={8} md={6}>
-                    <Card className={classes.cardContainer}>
-                        <CardActionArea>
-                            <CardMedia
-                                component="img"
-                                alt="Project 4"
-                                height="140"
-                                image={project4}
-                            />
-                            <CardContent>
-                                <Typography gutterBottom variant="h5">
-                                    Project 4
-                                </Typography>
-                                <Typography  variant="body2" color="textSecondary" component="p">
-                                    lofkdl;k dsflk dslf l;sdkf l;dsk  sdlfk;sd l;fk sd
-                                     sdfksld; fskl; sld;kf sd
-                                     f skld;f ksd;lf ks
-                                     d fslkd; fskdl;fkdsl;fkdsl;fksdl;fk kl;dskf ;lds fk;sl
-                                </Typography>
-                            </CardContent>
-                        </CardActionArea>
-                            <CardActions>
-                                <Button size="small" color="primary">
-                                    Share
-                                </Button>
-                                <Button size="small" color="primary">
-                                    Live Demo
+                                    <a style={{ textDecoration:"none"}}href="https://github.com/YoavAtzmon/Portfolio">
+                                    GIT
+                                    </a>
                                 </Button>
                             </CardActions>
                     </Card>

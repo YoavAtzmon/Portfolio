@@ -1,5 +1,6 @@
 import { Typography, Avatar, Grid, Box, Divider, makeStyles } from "@material-ui/core"
 import avatar from '../avatar.png'
+import me from '../images/me.png'
 import Typed from "react-typed"
 import '../App.css'
 
@@ -31,14 +32,15 @@ export default function Header() {
     return (
         <Box className={classes.typedContainer}>
             <Grid container justify="center">
-                <Avatar className={classes.avatar} src={avatar} alt="Russel Crowe" />
+                <Avatar className={classes.avatar}
+                    src={avatar} alt="Russel Crowe" />
             </Grid>
             <Typography className={classes.title} variant="h4">
                 <Typed strings={["Yoav Atzmon"]} typeSpeed={40} />
             </Typography>
-            
+
             <Typography className={classes.subtitle} variant="h5">
-                <Typed strings={["Full Stack Developer", "java Script", "React.js", "Node.js", "Material-ui","MongoDB","CSS","HTML"]}
+                <Typed strings={["Full Stack Developer", "java Script", "React.js", "Node.js", "Material-ui", "MongoDB", "CSS", "HTML"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop

@@ -73,9 +73,10 @@ const useStyles = makeStyles(theme => ({
         margin: "0 3rem 0 auto",
         fontSize: "1.8rem",
         background: "tomato",
+        borderRadius : "4px",
         color: "white",
         lineHeight: 1,
-        padding: "0.5rem 0 1rem",
+        // padding: "0.5rem 0 1rem",
         "&:before": {
             display: "none"
         },
@@ -114,13 +115,13 @@ export default function Resume() {
                     working experience
                 </Typography>
                 <Box component="div" className={classes.timeLine}>
-                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>2013</Typography>
+                    <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>2018</Typography>
                     <Box component="div" className={classes.timeLineItem}>
                         <Typography variant="h5" aligh="center" className={classes.subHeading}>
-                            web design
+                        Private Security Gaurd
                         </Typography>
                         <Typography variant="body1" aligh="center">
-                            company name
+                            T&M Company
                         </Typography>
                         <Typography variant="subtitle1" aligh="center">
                          Lorfdsf  dfdsf  dsf f dsfl sdkf fl kflsd flks
