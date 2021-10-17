@@ -56,7 +56,7 @@ export default function Contacts() {
     function handleSubmit(e) {
         e.preventDefault()
 
-        const templateParams = Object.values(event.target)
+        const templateParams = Object.values(e.target)
             .reduce((acc, input) => !input.name ? acc : ({
                 ...acc,
                 [input.name]: input.type == 'checkbox' ? input.checked : input.value
@@ -80,9 +80,6 @@ export default function Contacts() {
             <Navbar />
             <Grid container justifyContent="center">
                 <Box component="form" className={classes.form} onSubmit={handleSubmit}>
-                    {/* <Typography variant="h5" style={{color: "tomato", textAlign :"center", textTransform :"uppercase"}}>
-                    contact me...
-                   </Typography> */}
                     <InputField
                         required
                         fullWidth={true}

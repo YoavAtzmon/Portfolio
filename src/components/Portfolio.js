@@ -103,13 +103,13 @@ export default function Portfolio() {
                                 </Typography>
                                 <Typography  variant="body2" color="textSecondary" component="p">
                                   Web aplication project, where you can watch my portfolio .
-                                  The web wah built using JS CSS REACT.JS MATERIAL-UI HEROKU
+                                  The web was built using JS CSS REACT.JS MATERIAL-UI HEROKU
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                    <a style={{ textDecoration:"none"}}href="https://portfolio.herokuapp.com">
+                                    <a style={{ textDecoration:"none"}}href="https://yoav-portfolio.herokuapp.com">
                                     WEB
                                     </a>
                                 </Button>
