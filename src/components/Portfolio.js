@@ -35,7 +35,7 @@ export default function Portfolio() {
                                 </Typography>
                                 <Typography  variant="body2" color="textSecondary" component="p">
                                   Web aplication project,where you can make your own test,and send him to anyone you would like to.
-                                  The web was built using JS CSS REACT.JS MONGO-DB HEROKU
+                                  The web was built using JS CSS REACT.JS MONGO-DB NODE.JS 
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -95,26 +95,26 @@ export default function Portfolio() {
                                 component="img"
                                 alt="Project 1"
                                 height="140"
-                                image={`https://cdn.pixabay.com/photo/2015/12/08/00/31/office-1081807_960_720.jpg`}
+                                image={`https://cdn.pixabay.com/photo/2018/05/31/13/13/rainy-day-3443977_960_720.jpg`}
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5">
-                                    Protfolio
+                                    Weather app
                                 </Typography>
                                 <Typography  variant="body2" color="textSecondary" component="p">
-                                  Web aplication project, where you can watch my portfolio .
-                                  The web was built using JS CSS REACT.JS MATERIAL-UI HEROKU
+                                  Weather app aplication, where you can watch the weather of every city you'll like .
+                                  The web was built using JS CSS REACT.JS REDUX MATERIAL-UI HEROKU
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                    <a style={{ textDecoration:"none"}}href="https://yoav-portfolio.herokuapp.com">
+                                    <a style={{ textDecoration:"none"}}href="https://yoavweather.herokuapp.com">
                                     WEB
                                     </a>
                                 </Button>
                                 <Button size="small" color="primary">
-                                    <a style={{ textDecoration:"none"}}href="https://github.com/YoavAtzmon/Portfolio">
+                                    <a style={{ textDecoration:"none"}}href="https://github.com/YoavAtzmon/Yoav-Atzmon-01-11-2021">
                                     GIT
                                     </a>
                                 </Button>
