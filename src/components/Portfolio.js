@@ -34,7 +34,7 @@ export default function Portfolio() {
                                     Make A Test
                                 </Typography>
                                 <Typography  variant="body2" color="textSecondary" component="p">
-                                  Web aplication project,where you can make your own test,and send him to anyone you would like to.
+                                  Web application project,where you can make your own test,and send him to anyone you would like to.
                                   The web was built using JS CSS REACT.JS MONGO-DB NODE.JS 
                                 </Typography>
                             </CardContent>
@@ -68,7 +68,7 @@ export default function Portfolio() {
                                     Looper Machine
                                 </Typography>
                                 <Typography  variant="body2" color="textSecondary" component="p">
-                                  Web aplication project, where you can make you own loop and record him.
+                                  Web application project, where you can make you own loop and record him.
                                   The web wah built using JS CSS REACT.JS MATERIAL-UI HEROKU
                                 </Typography>
                             </CardContent>
@@ -102,7 +102,7 @@ export default function Portfolio() {
                                     Weather app
                                 </Typography>
                                 <Typography  variant="body2" color="textSecondary" component="p">
-                                  Weather app aplication, where you can watch the weather of every city you'll like .
+                                  Weather app, where you can watch the weather of every city in the world.
                                   The web was built using JS CSS REACT.JS REDUX MATERIAL-UI HEROKU
                                 </Typography>
                             </CardContent>
